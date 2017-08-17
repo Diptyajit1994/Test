@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>STEM</title>
+    <!-- Path to Framework7 Library CSS-->
+    <!-- Path to Framework7 Library CSS-->
+	    <link rel="stylesheet" href="css/framework7.material.min.css">
+  <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+  
+  <!-- Path to your custom app styles-->
+	<link rel="stylesheet" href="css/my-app.css">
+  
+	<link rel="stylesheet" href="css/material-icons.css">
+	<link rel="stylesheet" href="css/framework7-icons.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="css/jquery.terminal.css" rel="stylesheet"/>
+	
+	<style>
+	.swiper-slide {
+	  /*background: #fff;
+	  box-sizing: border-box;
+	  border: 1px solid #ccc;*/
+	}
+	.swiper-slide span {
+	  text-align:center;
+	  display:block;
+	  margin: 20px;
+	  font-size:21px;
+	}
+	.swiper-container {
+	  height: 400px;
+	  margin: 35px 0;
+	}
+	</style>
+  </head>
+  <body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Left panel content goes here</p>
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+		
+       
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-static toolbar-static">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content" style="background-color: #CCD1D1;">
+              <div class="content-block-title" align="center"></div>
+              
+			   <div class="swiper-container swiper-1">
+				<div class="swiper-pagination"></div>
+				<div class="swiper-wrapper" style="padding-top: 8%;">
+				  <div class="swiper-slide"><span><i class="material-icons" style="font-size: 4rem;">&#xE068;</i></span><span>Welcome To Stem App</span></div>
+				  <div class="swiper-slide"><span><i class="material-icons" style="font-size: 4rem;">&#xE1A8;</i></span><span>It's an Bluetooth App</span></div>
+				  <div class="swiper-slide"><span><i class="material-icons" style="font-size: 4rem;">&#xE308;</i></span><span>It's very simple App</span></div>
+				</div>
+			  </div>
+              
+              <div class="content-block">
+               <p class="buttons-row">
+				<a href="home.html" class="button button-big button-fill color-red">Login</a>
+				<a href="home.html" class="button button-big button-fill color-red">Sign Up</a>
+				</p>
+              </div>
+			 
+            </div>
+          </div>
+		  
+        </div>
+		
+        
+      </div>
+    </div>
+ 
+	 <!-- Path to Framework7 Library JS-->
+  <script type="text/javascript" src="js/framework7.min.js"></script>
+  <!-- Path to your app js-->
+  <script type="text/javascript" src="js/my-app.js"></script>
+  	 <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.mousewheel-min.js"></script>
+	<script src="js/jquery.terminal.min.js"></script>
+  </body>
+</html>
